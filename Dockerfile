@@ -1,5 +1,5 @@
 #Pro Userbot Start Clonning ⚡♥️
-RUN git clone https://https://github.com/MR-INVISIBLEBOY/SIREN-USERBOT.git /root/userbot
+RUN git clone https://https://github.com/MR-INVISIBLEBOY/SIRENUSERROBOOT.git /root/userbot
 
 #working directory 
 WORKDIR /root/userbot
