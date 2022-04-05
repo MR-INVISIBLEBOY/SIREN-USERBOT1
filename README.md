@@ -20,7 +20,7 @@ USERNAME = ⚜[LEGEND-PRO](https://github.com/DARK-LEGEND-PRO)
 
 _________DEPLOY TO HERUKO_______
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MR-INVISIBLE/SIREN-USERBOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MR-INVISIBLEBOY/SIREN-USERBOT)
 
 __________DEPLOY TO RAILWAY_______
 
