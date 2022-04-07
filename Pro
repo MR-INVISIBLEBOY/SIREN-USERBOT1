@@ -6,7 +6,7 @@ _get_repolink () {
     if [[ $PRO_REPO == "PROBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0RBUkstTEVHRU5ELVBSTy9QUk8tRFJBR09OUk9CT09UL2FyY2hpdmUvbWFpbi56aXA=" | base64 -d
-    elif [[ $PRO_REPO == "PROBOT" ]]
+    elif [[ $PRO_REPO == "SIRENBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0RBUkstTEVHRU5ELVBSTy9QUk8tRFJBR09OUk9CT09UL2FyY2hpdmUvbWFpbi56aXA=" | base64 -d
     elif [[ $PRO_REPO =~ $regex ]]
@@ -25,8 +25,8 @@ _get_repolink () {
 
 _pro_bot () {
     local zippath
-    zippath="Pro.zip"
-    echo "  🔰 Downloading Pro SirenUserBot Source Code... 🔰"
+    zippath="SIREN.zip"
+    echo "  🔰 Downloading SirenUserBot Source Code... 🔰"
     wget -q $(_get_repolink) -O "$zippath"
     echo "  📍Unpacking Data...📍"
     PROPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
